@@ -1,28 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta content="X-Content-Type-Options=nosniff" http-equiv="Content-Type">
-    <title>filtastisch</title>
-    <script src="public/script/keylog.ts"></script>
-</head>
-<body>
-
+<?php
+echo '
 <div class="navbar">
-
     <ul>
-
         <li><a href="https://filtastisch.net/links" target="_blank">Meine Socials</a></li>
         <li><a href="partner.html">Partner</a></li>
         <li><a href="https://www.nightnet.eu/" target="_blank">NightNet</a></li>
         <li><a href="#contact">Kontakt</a></li>
     </ul>
-
-</div>
-
-<div id="contact">
-
-</div>
-
-</body>
-</html>
+</div>';

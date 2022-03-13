@@ -1,0 +1,35 @@
+.navbar {
+
+  ul {
+
+    list-style-type: none;
+    margin: 0;
+    padding-left: 50px;
+    padding-right: 30px;
+    overflow: hidden;
+    background-color: $blue;
+
+    li {
+      float: right;
+
+      a {
+        font-weight: bold;
+        display: block;
+        color: $white;
+        text-align: center;
+        padding: 10px 8px;
+        margin: 4px 6px;
+        text-decoration: none;
+        border-radius: 5px;
+        font-size: 20px;
+        transition: all 200ms;
+
+        &:hover {
+          background-color: $hover_blue;
+          cursor: pointer;
+        }
+
+      }
+    }
+  }
+}
